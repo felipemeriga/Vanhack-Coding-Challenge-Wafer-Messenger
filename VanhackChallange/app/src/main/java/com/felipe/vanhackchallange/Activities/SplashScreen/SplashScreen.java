@@ -8,7 +8,7 @@ import android.os.Bundle;
 import android.view.Window;
 import android.view.WindowManager;
 
-import com.felipe.vanhackchallange.Activities.Main.LoadingScreen;
+import com.felipe.vanhackchallange.Activities.Loading.LoadingScreen;
 import com.felipe.vanhackchallange.R;
 
 public class SplashScreen extends AppCompatActivity {

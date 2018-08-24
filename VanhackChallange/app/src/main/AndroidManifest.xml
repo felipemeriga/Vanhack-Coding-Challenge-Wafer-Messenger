@@ -21,7 +21,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Activities.Main.LoadingScreen"></activity>
+        <activity android:name=".Activities.Loading.LoadingScreen" />
+        <activity android:name=".Activities.WaferList.WaferList"></activity>
     </application>
 
 </manifest>

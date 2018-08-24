@@ -1,4 +1,4 @@
-package com.felipe.vanhackchallange.Activities.Main;
+package com.felipe.vanhackchallange.Activities.Loading;
 
 import android.os.Build;
 import android.support.v7.app.AppCompatActivity;
