@@ -8,7 +8,7 @@ import android.os.Bundle;
 import android.view.Window;
 import android.view.WindowManager;
 
-import com.felipe.vanhackchallange.Activities.Main.MainActivity;
+import com.felipe.vanhackchallange.Activities.Main.LoadingScreen;
 import com.felipe.vanhackchallange.R;
 
 public class SplashScreen extends AppCompatActivity {
@@ -31,8 +31,8 @@ public class SplashScreen extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent searchForDevices = new Intent(SplashScreen.this, MainActivity.class);
-                startActivity(searchForDevices);
+                Intent loadingScreen = new Intent(SplashScreen.this, LoadingScreen.class);
+                startActivity(loadingScreen);
                 finish();
             }
         }, SPLASH_TIME_OUT);
