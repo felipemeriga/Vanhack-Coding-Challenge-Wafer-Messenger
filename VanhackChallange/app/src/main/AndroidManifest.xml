@@ -14,15 +14,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Activities.SplashScreen.SplashScreen"
-            android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+        <activity android:name=".Activities.SplashScreen.SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Activities.Main.MainActivity"></activity>
+        <activity android:name=".Activities.Main.LoadingScreen"></activity>
     </application>
 
 </manifest>

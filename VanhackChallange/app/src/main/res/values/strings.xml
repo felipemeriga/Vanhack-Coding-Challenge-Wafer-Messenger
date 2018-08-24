@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Vanhack Challange</string>
+    <string name="vanhack_challenge">Vanhack Challenge</string>
+    <string name="wafer_messenger">Wafer Messenger</string>
 </resources>
