@@ -1,10 +1,12 @@
-package com.felipe.vanhackchallange.Activities.Domain;
+package com.felipe.vanhackchallenge.core.Domain;
 
 import com.google.gson.annotations.SerializedName;
 
 import java.util.List;
 
-public class Wafer {
+public class WaferOriginal {
+
+
 
     @SerializedName("name")
     String name;
