@@ -1,4 +1,4 @@
-package com.felipe.vanhackchallange.Activities.Loading;
+package com.felipe.vanhackchallenge.core.Loading;
 
 import android.os.Build;
 import android.support.v7.app.AppCompatActivity;
@@ -13,8 +13,8 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
-import com.felipe.vanhackchallange.Activities.Domain.Wafer;
-import com.felipe.vanhackchallange.R;
+import com.felipe.vanhackchallenge.core.Domain.Wafer;
+import com.felipe.vanhackchallenge.R;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 
@@ -27,6 +27,7 @@ public class LoadingScreen extends AppCompatActivity {
     RequestQueue requestQueue;
     private Gson gson;
     private ProgressBar spinner;
+    List<Wafer> waferList;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -58,9 +59,9 @@ public class LoadingScreen extends AppCompatActivity {
         @Override
         public void onResponse(String response) {
             Log.i("MainActivity Class", "onResponse() Success: The HTTP GET request was processed successfully!");
-            List<Wafer> wafer = Arrays.asList(gson.fromJson(response, Wafer[].class));
+            waferList = Arrays.asList(gson.fromJson(response, Wafer[].class));
 
-            Log.i("MainActivity", "onResponse() " + wafer.size() + " posts loaded.");
+            Log.i("MainActivity", "onResponse() " + waferList.size() + " posts loaded.");
 
         }
     };

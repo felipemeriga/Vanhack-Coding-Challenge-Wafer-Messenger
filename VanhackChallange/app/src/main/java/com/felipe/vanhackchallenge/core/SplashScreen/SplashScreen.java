@@ -1,4 +1,4 @@
-package com.felipe.vanhackchallange.Activities.SplashScreen;
+package com.felipe.vanhackchallenge.core.SplashScreen;
 
 import android.content.Intent;
 import android.os.Build;
@@ -8,8 +8,8 @@ import android.os.Bundle;
 import android.view.Window;
 import android.view.WindowManager;
 
-import com.felipe.vanhackchallange.Activities.Loading.LoadingScreen;
-import com.felipe.vanhackchallange.R;
+import com.felipe.vanhackchallenge.core.WaferList.WaferListActivity;
+import com.felipe.vanhackchallenge.R;
 
 public class SplashScreen extends AppCompatActivity {
 
@@ -31,8 +31,8 @@ public class SplashScreen extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent loadingScreen = new Intent(SplashScreen.this, LoadingScreen.class);
-                startActivity(loadingScreen);
+                Intent waferListActivity = new Intent(SplashScreen.this, WaferListActivity.class);
+                startActivity(waferListActivity);
                 finish();
             }
         }, SPLASH_TIME_OUT);
