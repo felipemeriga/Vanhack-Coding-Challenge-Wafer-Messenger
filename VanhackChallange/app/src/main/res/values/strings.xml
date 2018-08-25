@@ -1,5 +1,10 @@
 <resources>
-    <string name="app_name">Vanhack Challange</string>
+    <string name="app_name">Vanhack Challenge</string>
     <string name="vanhack_challenge">Vanhack Challenge</string>
     <string name="wafer_messenger">Wafer Messenger</string>
+    <string name="action_settings">Settings</string>
+    <string name="wafer_list">Wafer list - Challenge</string>
+    <string name="delete">DELETE</string>
+    <string name="language_label">Language: </string>
+    <string name="currency_label">Currency: </string>
 </resources>
