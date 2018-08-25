@@ -1,4 +1,4 @@
-package com.felipe.vanhackchallange;
+package com.felipe.vanhackchallenge;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.felipe.vanhackchallange", appContext.getPackageName());
+        assertEquals("com.felipe.vanhackchallenge", appContext.getPackageName());
     }
 }

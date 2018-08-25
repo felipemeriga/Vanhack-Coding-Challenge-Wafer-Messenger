@@ -1,4 +1,4 @@
-package com.felipe.vanhackchallange;
+package com.felipe.vanhackchallenge;
 
 import org.junit.Test;
 
