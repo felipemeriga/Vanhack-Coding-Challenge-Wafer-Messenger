@@ -23,7 +23,7 @@
                                           <PersistentState>
                                             <option name="values">
                                               <map>
-                                                <entry key="scalingPercent" value="51" />
+                                                <entry key="scalingPercent" value="47" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -35,7 +35,7 @@
                                     <map>
                                       <entry key="backgroundAssetType" value="COLOR" />
                                       <entry key="backgroundColor" value="000000" />
-                                      <entry key="foregroundImage" value="C:\Users\felip\Desktop\GIT\Vanhack-Coding-Challenge-Wafer-Messenger\VanhackChallange\app\src\main\res\drawable\ic_bomb.xml" />
+                                      <entry key="foregroundImage" value="C:\Users\felip\Desktop\GIT\Vanhack-Coding-Challenge-Wafer-Messenger\VanhackChallange\app\src\main\res\drawable\wafer_logo.png" />
                                     </map>
                                   </option>
                                 </PersistentState>

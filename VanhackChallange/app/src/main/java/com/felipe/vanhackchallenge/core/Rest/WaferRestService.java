@@ -23,7 +23,8 @@ import java.util.List;
 
 public class WaferRestService {
 
-    public static final String ENDPOINT = "https://restcountries.eu/rest/v2/all";
+    public static final String ENDPOINT = "https://restcountries.eu/rest/v2/all" +
+            "";
     RequestQueue requestQueue;
     private Gson gson;
     public WaferListActivity activity;

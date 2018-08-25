@@ -18,7 +18,7 @@ public class WaferListAdapter extends RecyclerView.Adapter<WaferListAdapter.MyVi
     private List<Wafer> waferList;
 
     public class MyViewHolder extends RecyclerView.ViewHolder {
-        //Defining objects as textview from wafer_list_item.xml layout to manipulate them
+
         public TextView name, language, currency;
         public RelativeLayout viewBackground, viewForeground;
 
